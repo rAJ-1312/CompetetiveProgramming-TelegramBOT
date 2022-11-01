@@ -3,6 +3,7 @@ import telebot
 from telebot import types
 from dotenv import load_dotenv
 from get_Single import fetch_data_for_a_resourceID
+from quotes.quotes import random_quote
 
 
 load_dotenv()
@@ -46,6 +47,8 @@ def fetch_data_from_all(callback_query):
     if i==1:
         bot.send_message(callback_query.message.chat.id, f'There are not any upcoming contests in the next seven days on any platforms. Enjoy this Week <3')
 
+
+
 @bot.message_handler(commands=['start'])
 def send_hello(message):
 
@@ -69,6 +72,11 @@ def send_hello(message):
     markup.row(b5,b6,b7)
     markup.row(b8,b9,b10)
     markup.row(b11)
+
+
+    qote = random_quote()
+
+    bot.send_message(message.chat.id, qote)
 
     text = "Click on any website name to get the list of upcoming contests details over next 7 days."
     bot.send_message(message.chat.id, text, reply_markup=markup)
