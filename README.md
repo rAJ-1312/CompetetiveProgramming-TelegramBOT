@@ -2,9 +2,9 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
+<p align="center" border-radius=50%>
   <a href="https://github.com/rAJ-1312/CompetetiveProgramming-TelegramBOT">
-    <img src="./bot.jpg" alt="Logo" width="150">
+      <img src="./bot.jpg" alt="Logo" width="150">
   </a>
 
   <h3 align="center"><a href="https://telegram.me/contestsalert_bot">CPC_Bot</a></h3>
@@ -36,14 +36,9 @@
   - [Installation](#installation)
   - [Usage](#usage)
     - [Get contest details](#get-contest-details)
-
-
-
-
-
-
-
-
+    - [Backend info](#backend-info)
+  - [For Contribution](#for-contribution)
+  - [License](#license)
 
 
 <!-- ABOUT THE PROJECT -->
@@ -100,5 +95,33 @@ python3 main.py
 ### Get contest details
 
 <p align="center">
-  <img align="center" src="./screenshots/start.jpg?raw=true" alt="notice.png" width="250">
+  <img align="center" src="./screenshots/quote.jpg?raw=true" alt="bot.jpg" width="250">
+  <img align="center" src="./screenshots/start.jpg?raw=true" alt="bot.jpg" width="250">
 </p>
+
+### Backend info
+
+<p align="center">
+  <img align="center" src="./screenshots/info.jpg" alt="bot.jpg" width="250">
+</p>
+
+
+<!-- CONTRIBUTING -->
+## For Contribution
+
+“One of the marvelous things about community is that it enables us to welcome and help people in a way we couldn't as individuals.” – *Jean Vanier* 
+Any contributions you make are _*most welcomed*_.
+
+Just follow these steps :smile: : 
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/ur_feature`)
+3. Commit your Changes (`git commit -m 'feat: Add some features'`)
+4. Push to the Branch (`git push origin feature/ur_feature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
+
+****
