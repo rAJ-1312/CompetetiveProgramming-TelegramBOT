@@ -82,9 +82,13 @@ pip3 install -r requirements.txt
 touch .env
 ```
 4. Now inside that .env file you will have to insert two entries one is the BOT TOKEN which you must have got from [BotFather](https://telegram.me/BotFather) and second is the your [Clist API](https://clist.by/api/v2/doc/) token to make api calls.
+```sh
+BOT_TOKEN = ******************************
+API_KEY = *******************************
+```
 <br />
 
-5. After adding those two entries, you are good to go. Just run the program using
+1. After adding those two entries, you are good to go. Just run the program using
 ```sh
 python3 main.py
 ```
