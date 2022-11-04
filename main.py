@@ -9,7 +9,7 @@ from quotes.quotes import random_quote
 load_dotenv()
 
 TOKEN = os.getenv('BOT_TOKEN')
-bot = telebot.TeleBot(TOKEN, parse_mode="HTML")
+bot = telebot.TeleBot(TOKEN,  parse_mode="HTML")
 
 resource_IDs = [1, 2, 12, 26, 63, 73, 93, 102, 126, 136]
 
