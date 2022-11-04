@@ -52,6 +52,10 @@ def fetch_data_from_all(callback_query):
 @bot.message_handler(commands=['start'])
 def send_hello(message):
 
+    print('Customer',end=" ")
+    print(message.chat.first_name,end="\t")
+    print(message.chat.username)
+
 
     b1 = types.InlineKeyboardButton(text = 'Codeforces', callback_data=1)
     b2 = types.InlineKeyboardButton(text = 'Codechef', callback_data=2)
