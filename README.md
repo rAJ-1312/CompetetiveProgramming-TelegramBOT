@@ -88,7 +88,7 @@ API_KEY = *******************************
 ```
 <br />
 
-1. After adding those two entries, you are good to go. Just run the program using
+5. After adding those two entries, you are good to go. Just run the program using
 ```sh
 python3 main.py
 ```
